@@ -2,5 +2,13 @@
 
 ## 1. Создадим SC с помощью файла sc.yaml
 ![logo](sc.png)
-## проверим что StorageClass создан командой *kubectl get sc"*
+## проверим что StorageClass создан, командой *kubectl get sc"*
 ![logo](get_sc.png)
+## 2. Создадим PV с помощью файла pv.yaml
+![logo](pv.png)
+## проверим что Persistent Volume создан, командой *kubectl get pv*
+![logo](get_pv.png)
+## 3. Создадим PVC с помощью файла pvc.yaml
+![logo](pvc.png)
+## проверим что Persistent Volume Claim создан, командой *kubectl get pvc*
+![logo](get_pvc.png)
