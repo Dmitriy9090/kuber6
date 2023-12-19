@@ -2,3 +2,5 @@
 
 ## 1. Создадим SC с помощью файла sc.yaml
 ![logo](sc.png)
+## проверим что StorageClass создан командой *kubectl get sc"*
+![logo](get_sc.png)
