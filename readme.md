@@ -17,4 +17,4 @@
 ## зайдем в контенер с базой данных с помощью команды *kubectl exec -it hm-pv-pod -- bash*, зайдем в СУБД, создадим базу данных **homework** и таблицу **book** в ней.
 ![logo](table.png)
 ## Остановим pod командой *kubectl delete pod hm-pv-pod*.
-## Создадим новый pod с ОС Ubuntu c помощью файла pod1.yaml
+## 5. Создадим новый pod с ОС Ubuntu c помощью файла pod1.yaml
