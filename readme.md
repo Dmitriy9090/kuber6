@@ -12,3 +12,8 @@
 ![logo](pvc.png)
 ## проверим что Persistent Volume Claim создан, командой *kubectl get pvc*
 ![logo](get_pvc.png)
+## 4. Создадим pod с базой данных MariaDB с помощью файла pod.yaml
+![logo](md.png)
+## зайдем в контенер с базой данных с помощью команды *kubectl exec -it hm-pv-pod -- bash*, зайдем в СУБД, создадим базу данных **homework** и таблицу **book** в ней.
+![logo](table.png)
+## Остановим pod командой *kubectl delete pod hm-pv-pod*.
