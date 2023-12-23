@@ -25,3 +25,8 @@
 ## Остановим pod командой *kubectl delete pod hm-pv-pod*.
 ## 5. Создадим новый pod с ОС Ubuntu c помощью файла pod1.yaml
 ![logo](ubuntu.png)
+## Зайдем в pod командой *kubectl exec -it hm-pv-pod1 -- bash* и создадим в примонтированной директории /hm еще 2 каталога **555** и **homework**
+![logo](ubuntu_dir.png)
+## Останавливаем pod и запускаем pod с MariaDB
+
+
